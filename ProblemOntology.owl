@@ -1,0 +1,416 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#"
+     xml:base="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-62="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#describe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#describe"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#elementType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#elementType"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#hasActivity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#hasActivity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#hasComponent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#hasComponent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#hasData -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#hasData"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#hasDomainType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#hasDomainType"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#hasElement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#hasElement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#hasFormulation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#hasFormulation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#hasInputData -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#hasInputData">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#hasData"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#hasOutputData -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#hasOutputData">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#hasData"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#hasPresentation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#hasPresentation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#hasPrototype -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#hasPrototype"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#next -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#next"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#mission -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#mission"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#name"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#text -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#text"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#transferMethod -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#transferMethod"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Activity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Activity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Collection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Collection"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DataElement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DataElement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DataElementPresentation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DataElementPresentation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DomainType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DomainType"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Element -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Element"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Entity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Entity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#ImitateElement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#ImitateElement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#List -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#List"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Phrase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Phrase"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Problem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Problem"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Scalar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Scalar"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#SovereginElement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#SovereginElement"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Activity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Activity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Activity"/>
+        <mission>Находит количество дней между двумя датами</mission>
+        <name>Количество дней между датами</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DataElementPresentation_Date1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DataElementPresentation_Date1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DataElementPresentation"/>
+        <transferMethod>read-only</transferMethod>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DataElement_Date1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DataElement_Date1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DataElement"/>
+        <name>Первая дата</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DataElement_Day1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DataElement_Day1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DataElement"/>
+        <hasDomainType rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DomainType_Day"/>
+        <name>день первой даты</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DataElement_Day2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DataElement_Day2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DataElement"/>
+        <hasDomainType rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DomainType_Day"/>
+        <name>день второй даты</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DataElement_Month1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DataElement_Month1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DataElement"/>
+        <hasDomainType rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DomainType_Month"/>
+        <name>месяц первой даты</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DataElement_Month2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DataElement_Month2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DataElement"/>
+        <hasDomainType rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DomainType_Month"/>
+        <name>месяц второй даты</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DataElement_Year1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DataElement_Year1">
+        <hasDomainType rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DomainType_year"/>
+        <name>год первой даты</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DataElement_Year2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DataElement_Year2">
+        <hasDomainType rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DomainType_year"/>
+        <name>год второй даты</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DomainType_Day -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DomainType_Day">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DomainType"/>
+        <name>День</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DomainType_Month -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DomainType_Month">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DomainType"/>
+        <name>Месяц</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DomainType_year -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DomainType_year">
+        <name>Год</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Phrase1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Phrase1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Phrase"/>
+        <next rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Phrase2"/>
+        <text>Напишите прототип функции, которая находит</text>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Phrase2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Phrase2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Phrase"/>
+        <next rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Phrase3"/>
+        <text>количество дней между</text>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Phrase3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Phrase3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Phrase"/>
+        <next rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Phrase4"/>
+        <text>первой датой</text>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Phrase4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Phrase4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Phrase"/>
+        <next rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Phrase5"/>
+        <text>и</text>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Phrase5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Phrase5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Phrase"/>
+        <text>второй датой</text>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Problem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Problem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Problem"/>
+        <hasActivity rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Activity"/>
+        <hasFormulation rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#Phrase1"/>
+        <hasInputData rdf:resource="http://www.semanticweb.org/dns/ontologies/2021/9/untitled-ontology-62#DataElement_Date1"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
